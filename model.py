@@ -1,12 +1,6 @@
 import numpy as np
 from utils import *
-import ipdb
 
-import sys
-import asyncio
-
-if sys.platform == "win32":
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 class MLP:
     def __init__(self,input_size, hidden_size, output_size=10):

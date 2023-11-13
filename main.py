@@ -1,7 +1,7 @@
 import numpy as np
 from utils import *
 from model import MLP
-import ipdb
+
 
 
 
